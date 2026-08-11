@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.head-siter {
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nav-links li a {
+    padding: 8px 12px;
+    color: #323f4b;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 12px 0 0;
+}
+
+/* body */
+.banner {
+    height: 100vh;
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner p {
+    color: #f5f7fa;
+    font-size: 24px;
+    margin: 12px 0 24px;
+}
+
+.banner-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.custom-button {
+    background: #d0b200;
+    color: #ffffff;
+    border: none;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    background: transparent;
+    color: #d0b200;
+    border: 1px solid #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.why-choose-us {
+    background: #f9fbfe;
+}
+
+.wcu-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wcu-section h2 {
+    font-size: 24px;
+}
+
+.wcu-section p {
+    font-size: 18px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feature-card {
+    width: 100%;
+    max-width: 320px;
+    background: #ffffff;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.feature-card>img {
+    margin: auto;
+}
+
+.section-header {
+    background: #f9fbfe;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.menu-card {
+    width: 100%;
+    max-width: 260px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 1px 1px 1px #00000026;
+}
+
+.menu-card>img {
+    width: 100%;
+    margin: auto;
+}
+
+.menu-card h3 {
+    margin-top: 16px;
+    color: #323f4b;
+    font-size: 20px;
+}
+
+.menu-card a {
+    color: #d0b200;
+    font-weight: 500;
+}
+
+.container-two-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.container-two-column-reverse {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.image-block {
+
+    order: 1;
+}
+
+.image-block>img {
+    width: 200px;
+    height: 150px;
+
+}
+
+.content-block {
+
+
+    order: 0;
+}
+
+.content-block h2 {
+
+    font-size: 35px;
+}
+
+.content-block p {
+
+    font-size: 18px;
+}
+
+.payment-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.payment-icons>img {
+    width: 50px;
+    height: 50px;
+}
+
+.follow-us {
+    text-align: center;
+    padding: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 15px;
+}
+
+.social-icons span {
+    width: 80px;
+    height: 80px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer {
+    background: #0d2436;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.footer-content p,
+.footer-content address {
+    font-size: 14px;
+    color: #959ead;
+}
+
+.footer-content address {
+    font-style: normal;
+}
+
+@media (min-width:768px) {
+    .nav-links {
+        width: auto;
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+}
